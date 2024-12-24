@@ -1,0 +1,11 @@
+Your account number is: 1077221
+
+freemysqlhosting.net 
+
+To connect to your database use these details
+
+Server: sql3.freemysqlhosting.net
+Name: sql3753434
+Username: sql3753434
+Password: jW8Lj1AvuT
+Port number: 3306

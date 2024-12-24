@@ -1,0 +1,2 @@
+be in the PythonServerMySql folder
+then run: venv\Scripts\activate
