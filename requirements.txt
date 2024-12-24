@@ -1,3 +1,4 @@
-Django
-django-cors-headers
-whitenoise
+Flask==2.0.2
+mysqlclient==2.1.0
+Flask-MySQLdb==0.2.0
+Flask-Cors==3.0.10
