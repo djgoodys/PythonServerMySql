@@ -1,0 +1,17 @@
+aiven.com 
+
+To connect to your database use these details
+
+Database name
+defaultdb
+
+Host
+filtermanager-mysql-filtermanager.e.aivencloud.com
+
+Port
+25607
+
+User
+avnadmin
+
+mysql://avnadmin:AVNS_tnJimgAkaMP36guFO_1@filtermanager-mysql-filtermanager.e.aivencloud.com:25607/defaultdb?ssl-mode=REQUIRED
