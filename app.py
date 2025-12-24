@@ -14,22 +14,22 @@ app.config['MYSQL_PORT'] = 25607
 
 mysql = MySQL(app)
 
-@app.route('/manageEquipment', methods=['GET'])
+@app.route('/api/manageEquipment', methods=['GET'])
 def handleManageEquipment():
     from equipmentView import manageEquipment
     return manageEquipment()
 
-@app.route('/manageUsers', methods=['GET'])
+@app.route('/api/manageUsers', methods=['GET'])
 def handleManageUsers():
     from usersView import manageUsers
     return manageUsers()
 
-@app.route('/manageFilters', methods=['GET'])
+@app.route('/api/manageFilters', methods=['GET'])
 def handleManageFilter():
     from filtersView import manageFilters
     return manageFilters()
 
-@app.route('/manageFilterTypes', methods=['GET'])
+@app.route('/api/manageFilterTypes', methods=['GET'])
 def handleManageFilterTypes():
     from filtertypesView import manageFilterTypes
     return manageFilterTypes()
